@@ -6,6 +6,40 @@ Based on Guilliams et al., Cell 2022. See [Input Data](#input-data) for download
 
 ---
 
+## Getting Started
+
+**Step 1 — Clone the repository**
+```
+git clone https://github.com/jaso-public/liver-zonation.git
+cd liver-zonation
+```
+
+**Step 2 — Create a Python virtual environment**
+```
+python3.9 -m venv lz-env
+```
+
+**Step 3 — Activate the environment**
+```
+source lz-env/bin/activate
+```
+
+**Step 4 — Install dependencies**
+```
+pip install anndata==0.10.9 scanpy==1.10.3 pyscenic==0.12.1 ctxcore==0.2.0 scipy==1.13.1 numpy==2.0.2 pandas==2.3.3 scikit-learn==1.6.1 umap-learn==0.5.12 matplotlib==3.9.4 seaborn==0.13.2 networkx==3.2.1 pyvis==0.3.2 "dask[dataframe]==2024.8.0" numba==0.60.0 arboreto==0.1.6
+```
+
+**Step 5 — Download the source data**
+
+See [Input Data](#input-data) for instructions on downloading the study count matrix and SCENIC databases into `data/source/`.
+
+**Step 6 — Run the pipeline**
+```
+python scripts/run_all.py
+```
+
+---
+
 ## Scripts
 
 - `run_all.py` — runs the full pipeline in order; stops on first failure
