@@ -1,5 +1,6 @@
 # Python virtual environment
 lz-env/
+data/
 .env/
 
 # Standard Python cache
