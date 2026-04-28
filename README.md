@@ -54,6 +54,7 @@ python scripts/run_all.py
 | `select_highly_variable.py` | Selects top `N_HVG` highly variable genes (Pearson residuals) |
 | `select_hepatocytes.py` | Filters to hepatocyte cells using the `annot` column |
 | `cluster_hepatocytes.py` | Normalizes, computes UMAP, k-means clusters, writes per-cluster matrices and UMAP CSV |
+| `rank_genes.py` | Wilcoxon rank-sum test per cluster; outputs ranked marker gene CSV |
 | `hepatocytes_scenic.py` | Runs pySCENIC (GRN → cisTarget → AUCell) on each cluster |
 
 ### Plots

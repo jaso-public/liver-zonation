@@ -26,7 +26,10 @@ run("select_hepatocytes.py")
 # ── 4. Cluster hepatocytes, write per-cluster matrices and UMAP CSV
 run("cluster_hepatocytes.py")
 
-# ── 5. Run SCENIC regulon inference per cluster
+# ── 5. Rank marker genes per cluster (Wilcoxon)
+run("rank_genes.py")
+
+# ── 6. Run SCENIC regulon inference per cluster
 run("hepatocytes_scenic.py")
 
 # ── 6. Plots
