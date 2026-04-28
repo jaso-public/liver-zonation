@@ -32,6 +32,7 @@ ranking_dbs    = [
 ]
 
 N_HVG = 4000             # number of highly variable genes to select
+N_TOP_MARKERS  = 5       # top marker genes per cluster to show in plots
 N_SCENIC_GENES = 1000    # top HV genes to use as SCENIC input per cluster
 N_HEATMAP_GENES = 500    # max target genes to show in regulon heatmap (top by variance)
 N_TOP_TFS      = 10      # top TFs to show in regulon network

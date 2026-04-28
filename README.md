@@ -61,6 +61,7 @@ python scripts/run_all.py
 
 | Script | Output |
 |---|---|
+| `plot_marker_genes.py` | Dot plot and log2FC bar charts for top marker genes per cluster |
 | `liver_atlas_umap.py` | UMAP of all annotated cells colored by cell type |
 | `highly_variable_umap.py` | UMAP of HVG-filtered hepatocytes colored by cell type |
 | `regulon_network.py` | Static matplotlib network of top TFs and targets per cluster |

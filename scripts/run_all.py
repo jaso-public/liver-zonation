@@ -29,7 +29,10 @@ run("cluster_hepatocytes.py")
 # ── 5. Rank marker genes per cluster (Wilcoxon)
 run("rank_genes.py")
 
-# ── 6. Run SCENIC regulon inference per cluster
+# ── 6. Plot marker gene differences per cluster
+run("plot_marker_genes.py")
+
+# ── 7. Run SCENIC regulon inference per cluster
 run("hepatocytes_scenic.py")
 
 # ── 6. Plots
