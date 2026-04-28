@@ -115,7 +115,7 @@ python scripts/run_all.py
 
 Guilliams et al., Cell 2022 — *"Spatial proteogenomics reveals distinct and evolutionarily conserved hepatic macrophage niches"*
 
-- Scripts and supplementary data: https://github.com/saeyslab/LiverCellAtlas (`scripts_GuilliamsEtAll_Cell2022`)
+- Scripts and supplementary data: (https://www.livercellatlas.org/download.php)
 - Raw count data deposited on GEO — see the paper's Data Availability section for the accession number.
 
 ### SCENIC databases (`data/source/scenic_databases/`)
